@@ -6,7 +6,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
     - [x] A - Definition of Conceptual Model
   - [ ] 2nd submission (B, C, D, E and F) [April 5th]
     - [ ] B - Definition of Relational Model
-      - [ ] Check if the Conceptual is correct
+      - [ ] Check if the Conceptual Model is correct
     - [ ] C - Analysis of Functional Dependencies and Normal Forms
     - [ ] D - Creation of a database in SQLite
     - [ ] E - Add restrictions to the database
