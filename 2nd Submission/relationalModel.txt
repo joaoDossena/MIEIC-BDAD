@@ -1,4 +1,4 @@
-PessoaFEUP(pessoaFEUPcode, nome, morada, dataNasc, idade, sexo)
+﻿PessoaFEUP(pessoaFEUPcode, nome, morada, dataNasc, idade, sexo)
 
 Estudante(pessoaFEUPcode->PessoaFEUP, numeroEstudante, ano)
 
@@ -8,16 +8,18 @@ Curso(cursoCode, nome, grauAcademico, dataInicio, duracao, mediaEntrada)
 
 Cadeira(cadeiraCode, nome, creditos)
 
-TurmaPratica(idTurma, numEstudantes, data)
+TurmaPratica(idTurma, numEstudantes, data, sala->SalaID)
 
-Sala(bloco, numAndar, numeroPorta)
+Sala(salaID)
 
 Grupo(idGrupo, numPessoas)
 
-Projeto(dataEntrega)
+Projeto(codProjeto, dataEntrega)
 
 Exame(exameCode, data, duracao)
 
 Teste(testeCode, data, duracao)
 
-ResultadoFinal(nota)
+ResultadoFinal(resultadoFinalCode, nota)
+
+
