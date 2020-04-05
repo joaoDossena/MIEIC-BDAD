@@ -33,7 +33,7 @@ DROP TABLE IF EXISTS Cadeira;
 CREATE TABLE Cadeira (
 	idCadeira STRING PRIMARY KEY UNIQUE,
 	nome STRING,
-	creditos INTEGER,
+	creditos DOUBLE,
 	idCurso STRING REFERENCES Curso (idCurso)
 );
 
