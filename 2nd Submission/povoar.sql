@@ -82,6 +82,8 @@ INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19850001', 'Assiste
 INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19870001', 'Professor Associado', 'Departamento de Engenharia Civil');
 INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19970001', 'Professor Auxiliar', 'Departamento de Engenharia Química');
 
+--
+
 
 
 
