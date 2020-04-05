@@ -49,7 +49,7 @@ DROP TABLE IF EXISTS Epoca;
 CREATE TABLE Epoca (
 	idEpoca STRING PRIMARY KEY UNIQUE,
 	anoLetivo STRING,
-	semestre STRING CHECK (semestre LIKE "Primeiro" OR "Segundo")
+	semestre STRING CHECK (semestre = "Primeiro" OR semestre = "Segundo")
 );
 
 --ComponenteAvaliacao
@@ -115,7 +115,7 @@ DROP TABLE IF EXISTS TurmaPratica;
 CREATE TABLE TurmaPratica (
 	idTurmaPratica STRING PRIMARY KEY UNIQUE,
 	numEstudantes INTEGER,
-	diaSemana STRING CHECK (diaSemana LIKE "Segunda-Feira" OR "Terça-Feira" OR "Quarta-Feira" OR "Quinta-Feira" OR "Sexta-Feira"),
+	diaSemana STRING CHECK (diaSemana in ("Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira")),
 	horaInicio TIME,
 	horaFim TIME,
 	idCadeira STRING REFERENCES Cadeira (idCadeira)
@@ -128,7 +128,7 @@ CREATE TABLE PessoaFEUP (
 	nome STRING,
 	morada STRING,
 	dataNasc DATE,
-	sexo CHAR CHECK (sexo LIKE 'M' OR 'F'),
+	sexo CHAR CHECK (sexo = 'M' OR sexo = 'F'),
 	NIF INTEGER UNIQUE,
 	telefone INTEGER UNIQUE,
 	email STRING UNIQUE

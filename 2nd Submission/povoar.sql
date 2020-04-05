@@ -32,7 +32,9 @@ INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) 
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
     ('UP201800015', 'Marina Araujo Cunha', 'Rua Pedro Bonafe, 871', '2000-01-07', 'F', 507185029, 982416048, 'mac@gmail.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
-    ('UP201800015', 'Isabelle Souza Barbosa', 'Rua Padre Miguel Assis, 736', '2000-02-25', 'F', 519698400, 965528897, 'IsabelleSouzaBarbosa@jourrapide.com');
+    ('UP201800016', 'Isabelle Souza Barbosa', 'Rua Padre Miguel Assis, 736', '2000-02-25', 'F', 519698400, 965528897, 'IsabelleSouzaBarbosa@jourrapide.com');
+INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
+	('UP201800017', 'Carlos da Silva Sousa', 'Rua de Santa Catarina, 420', '2000-12-25', 'M', 123456789, 999999999, 'aaa@gmail.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
     ('UP201800018', 'Clara Ribeiro Melo', 'Praça Joaquim Pedro Rosa, 1205', '2000-11-26', 'F', 239317462, 69807295, 'ClaraRibeiroMelo@teleworm.us ');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
@@ -373,7 +375,3 @@ INSERT INTO EstudanteTurmaPratica (id, idTurmaPratica) VALUES ('UP201800019', 'M
 INSERT INTO EstudanteTurmaPratica (id, idTurmaPratica) VALUES ('UP201800019', 'MIEIC-FPRO01');
 
 
-
-
-SELECT *
-FROM PessoaFEUP;
