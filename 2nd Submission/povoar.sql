@@ -248,6 +248,20 @@ INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP
 INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800019', 'A01');
 INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800020', 'A01');
 
+--CadeiraDocente info insertion
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19990001', 'MIEIC-BDAD');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19900001', 'MIEIC-BDAD');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19850001', 'MIEIC-BDAD');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19870001', 'MIEIC-BDAD');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19970001', 'MIEIC-BDAD');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19990001', 'MIEIC-CMAT');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19900001', 'MIEIC-CMAT');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19850001', 'MIEIC-CMAT');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19870001', 'MIEIC-CMAT');
+INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19970001', 'MIEIC-CMAT');
+
+
+
 
 
 
