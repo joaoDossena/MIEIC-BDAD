@@ -178,7 +178,17 @@ INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzuc
 INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
 INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
 
-
+--ComponenteAvaliacao info insertion
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A01', 'BDAD Projeto Entrega 1', 'turvdzucldzpmzohenwm');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A02', 'BDAD Projeto Entrega 2', 'turvdzucldzpmzohenwm');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A03', 'BDAD Projeto Entrega 1', 'turvdzucldzpmzohenwm');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A04', 'AMAT Teste 1', 'cefiahhwfijhnhscednv');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A05', 'AMAT Teste 2', 'cefiahhwfijhnhscednv');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A06', 'AMAT Teste 3', 'cefiahhwfijhnhscednv');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A07', 'LPOO Exame', 'igdijspbahlzmngoipwv');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A08', 'FPRO Test 1', 'hsanpcgyydslybfqtnai');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('B01', 'CAL Proj 1', 'pshapuglqjszuhxkzhbl');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('B03', 'CAL Proj 1', 'pshapuglqjszuhxkzhbl');
 
 
 
