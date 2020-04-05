@@ -222,6 +222,32 @@ INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP2018
 INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800019', 'bbwhrkbjenhvyplwqwtq');
 INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800020', 'emqpjuwkhsnixtlsenhw');
 
+--EstudanteComponenteAvaliacao info insertion
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800001', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800001', 'A02');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800001', 'A03');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800002', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800002', 'A02');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800002', 'A03');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800003', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800004', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800005', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800006', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800007', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800008', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800009', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800010', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800011', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800012', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800013', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800014', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800015', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800016', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800017', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800018', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800019', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800020', 'A01');
+
 
 
 
