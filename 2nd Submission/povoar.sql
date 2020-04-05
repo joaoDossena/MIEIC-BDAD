@@ -99,50 +99,86 @@ INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInic
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
 	('MIEM', 'Mestrado Integrado em Engenharia Mecânica', 'Mestre', 5, 15, '1995-01-01 10:00:00');
 
+
 --Cadeira info insertion
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('BDAD', 'Base de Dados', 6, 'MIEIC');
+	('MIEIC-BDAD', 'Base de Dados', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('LPOO', 'Laboratório de Programação Orientada a Objetos', 7.5, 'MIEIC');
+	('MIEIC-LPOO', 'Laboratório de Programação Orientada a Objetos', 7.5, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('SOPE', 'Sistemas Operativos', 6, 'MIEIC');
+	('MIEIC-SOPE', 'Sistemas Operativos', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('CAL', 'Concepção e Análise de Algoritmos', 6, 'MIEIC');
+	('MIEIC-CAL', 'Concepção e Análise de Algoritmos', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('CGRA', 'Computação Gráfica', 4.5, 'MIEIC');
+	('MIEIC-CGRA', 'Computação Gráfica', 4.5, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('AMAT', 'Análise Matemática', 6, 'MIEIC');
+	('MIEIC-AMAT', 'Análise Matemática', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('CMAT', 'Complementos de Matemática', 6, 'MIEIC');
+	('MIEIC-CMAT', 'Complementos de Matemática', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('FISI1', 'Física 1', 6, 'MIEIC');
+	('MIEIC-FISI1', 'Física 1', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('FISI2', 'Física 2', 6, 'MIEIC');
+	('MIEIC-FISI2', 'Física 2', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('PF', 'Projeto FEUP', 1.5, 'MIEIC');
+	('MIEIC-PF', 'Projeto FEUP', 1.5, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('LCOM', 'Laboratório de Computadores', 6, 'MIEIC');
+	('MIEIC-LCOM', 'Laboratório de Computadores', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('FPRO', 'Fundamentos de Programação', 6, 'MIEIC');
+	('MIEIC-FPRO', 'Fundamentos de Programação', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('PROG', 'Programação', 6, 'MIEIC');
+	('MIEIC-PROG', 'Programação', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('TCOM', 'Teoria da Computação', 6, 'MIEIC');
+	('MIEIC-TCOM', 'Teoria da Computação', 6, 'MIEIC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('AMAT', 'Análise Matemática', 6, 'MIEEC');
+	('MIEEC-AMAT', 'Análise Matemática', 6, 'MIEEC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('AMAT', 'Análise Matemática', 6, 'MIEC');
+	('MIEC-AMAT', 'Análise Matemática', 6, 'MIEC');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('AMAT', 'Análise Matemática', 6, 'MIEQ');
+	('MIEQ-AMAT', 'Análise Matemática', 6, 'MIEQ');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('AMAT', 'Análise Matemática', 6, 'MIEA');
+	('MIEA-AMAT', 'Análise Matemática', 6, 'MIEA');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('AMAT', 'Análise Matemática', 6, 'MIEM');
+	('MIEM-AMAT', 'Análise Matemática', 6, 'MIEM');
 INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
-	('AMAT', 'Análise Matemática', 6, 'MIEGI');
+	('MIEGI-AMAT', 'Análise Matemática', 6, 'MIEGI');
 
 
---
+
+
+mhgpjangbhlmettcsdrf
+eardfmtshmjeassvxkfl
+icrqpsxbvpizccwukzfk
+humqjnwovpuwqtyvbfoy
+bhumyauywlldxflmzwyz
+fkmwdmmswmoehjnworss
+qtixskbiuaipwugmwbfd
+bbwhrkbjenhvyplwqwtq
+emqpjuwkhsnixtlsenhw
+
+
+--OcorrenciaCadeira info insertion
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('cefiahhwfijhnhscednv', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('lyvogymnyhltnqpuiwmy', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('igdijspbahlzmngoipwv', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('qhrayebeajqrnasgwutg', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('nsslmoydqntwnpfnoeuu', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('snoxoxoqctxqfyurzysm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('pshapuglqjszuhxkzhbl', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('hqqmbvwstfntexzrwuxk', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('hsanpcgyydslybfqtnai', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('pmbumadztmtxkdtxjizi', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+
+
 
 
 
