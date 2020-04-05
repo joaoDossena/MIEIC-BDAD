@@ -249,6 +249,38 @@ INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP
 INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800020', 'A01');
 
 
+--Epoca info insertion
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2019-2020-2', '2019-2020', 'Segundo');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2019-2020-1', '2019-2020', 'Primeiro');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2018-2019-2', '2018-2019', 'Segundo');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2018-2019-1', '2018-2019', 'Primeiro');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2017-2018-2', '2017-2018', 'Segundo');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2017-2018-1', '2017-2018', 'Primeiro');
+
+
+
+--OcorrenciaCadeiraEpoca
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2019-2020-2');
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2019-2020-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2018-2019-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2017-2018-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2017-2018-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2016-2017-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('6', '2016-2017-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2015-2016-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2015-2016-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2014-2015-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('6', '2014-2015-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2013-2014-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2013-2014-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('8', '2012-2013-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2012-2013-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2011-2012-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2011-2012-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2010-2011-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2010-2011-1'); 
+
 
 
 
