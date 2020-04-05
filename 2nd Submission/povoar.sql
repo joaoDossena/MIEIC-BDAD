@@ -1,7 +1,6 @@
 PRAGMA foreign_keys = on;
 
 --PessoaFEUP info insertion
-
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
 	('UP201800001', 'João Sousa da Silva', 'Rua Lael Ferreira, 429', '1999-01-01', 'M', 393201029, 9384928392, 'jss@gmail.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
@@ -41,7 +40,6 @@ INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) 
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
     ('UP201800020', 'Rodrigo Gomes Sousa', 'Beco Novo, 1620', '2000-09-08', 'M', 556386321, 934039307, 'RodrigoGomesSousa@dayrep.com');
 
-
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
 	('UP19990001', 'João Pereira Sousa', 'Quadra QR 110, 1666', '1978-09-17', 'M', 857386366, 983728476, 'JoaoPereiraSousa@dayrep.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
@@ -52,6 +50,40 @@ INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) 
 	('UP19870001', 'Filipe Almeida Pereira', 'Rua Caramuru, 576', '1966-11-28', 'M', 472942948, 832746209, 'FelipeAlmeidaPereira@jourrapide.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
 	('UP19970001', 'Filipe Ferreira Castro', 'Rua Cônsul Walter, 1828', '1973-12-23', 'M', 734892348, 954356092, 'FelipeFerreiraCastro@teleworm.us');
+
+
+--Estudante info insertion
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800001', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800002', 2018, 'MIEEC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800003', 2018, 'MIEQ');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800004', 2018, 'MIEA');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800005', 2018, 'MIEGI');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800006', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800007', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800008', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800009', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800010', 2018, 'MIEC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800011', 2018, 'MIEM');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800012', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800013', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800014', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800015', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800016', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800017', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800018', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800019', 2018, 'MIEIC');
+INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800020', 2018, 'MIEIC');
+
+
+--Docente info insertion
+INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
+
+
+
 
 
 SELECT *
