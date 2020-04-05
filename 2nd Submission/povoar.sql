@@ -99,7 +99,8 @@ INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInic
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
 	('MIEM', 'Mestrado Integrado em Engenharia Mecânica', 'Mestre', 5, 15, '1995-01-01 10:00:00');
 
-
+--Cadeira info insertion
+INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso)
 
 
 
