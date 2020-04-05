@@ -274,26 +274,26 @@ INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2017-2018-1', '2017-20
 
 
 --OcorrenciaCadeiraEpoca
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2019-2020-2');
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2019-2020-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2018-2019-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2018-2019-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2017-2018-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2017-2018-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2016-2017-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('6', '2016-2017-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2015-2016-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2015-2016-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2014-2015-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('6', '2014-2015-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2013-2014-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2013-2014-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('8', '2012-2013-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2012-2013-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2011-2012-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2011-2012-1'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2010-2011-2'); 
-INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2010-2011-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('turvdzucldzpmzohenwm', '2019-2020-2');
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('pshapuglqjszuhxkzhbl', '2019-2020-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('hsanpcgyydslybfqtnai', '2019-2020-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('pmbumadztmtxkdtxjizi', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('eardfmtshmjeassvxkfl', '2017-2018-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('cefiahhwfijhnhscednv', '2017-2018-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('lyvogymnyhltnqpuiwmy', '2017-2018-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('igdijspbahlzmngoipwv', '2017-2018-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('qhrayebeajqrnasgwutg', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('hqqmbvwstfntexzrwuxk', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('mhgpjangbhlmettcsdrf', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('nsslmoydqntwnpfnoeuu', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('snoxoxoqctxqfyurzysm', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('icrqpsxbvpizccwukzfk', '2018-2019-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('humqjnwovpuwqtyvbfoy', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('bhumyauywlldxflmzwyz', '2018-2019-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('fkmwdmmswmoehjnworss', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('qtixskbiuaipwugmwbfd', '2018-2019-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('bbwhrkbjenhvyplwqwtq', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('emqpjuwkhsnixtlsenhw', '2018-2019-2'); 
 
 --TurmaPratica info insertion
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
