@@ -202,6 +202,40 @@ INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP2018
 INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800020', 'emqpjuwkhsnixtlsenhw');
 
 
+--TurmaPratica info insertion
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-BDAD01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-BDAD02', 1, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-CAL01', 1, 'Quarta-Feira', '08:00:00', '10:00:00', 'MIEIC-CAL');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-SOPE01', 1, 'Quinta-Feira', '08:00:00', '12:00:00', 'MIEIC-SOPE');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-LPOO01', 1, 'Sexta-Feira', '15:00:00', '18:00:00', 'MIEIC-LPOO');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-CGRA01', 1, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEIC-CGRA');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-PF01', 1, 'Segunda-Feira', '15:00:00', '16:00:00', 'MIEIC-PF');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-AMAT01', 1, 'Segunda-Feira', '14:00:00', '15:00:00', 'MIEIC-AMAT');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEEC-AMAT01', 1, 'Quinta-Feira', '10:00:00', '13:00:00', 'MIEEC-AMAT');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEQ-AMAT01', 1, 'Quarta-Feira', '10:00:00', '12:00:00', 'MIEQ-AMAT');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEC-AMAT01', 1, 'Sexta-Feira', '10:00:00', '12:00:00', 'MIEC-AMAT');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEGI-AMAT01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEGI-AMAT');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEA-AMAT01', 1, 'Quarta-Feira', '10:00:00', '12:00:00', 'MIEA-AMAT');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEM-AMAT01', 1, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEM-AMAT');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-PROG01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-PROG');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-FPRO01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-FPRO');
+
 
 
 
