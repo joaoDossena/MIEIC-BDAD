@@ -42,5 +42,17 @@ INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) 
     ('UP201800020', 'Rodrigo Gomes Sousa', 'Beco Novo, 1620', '2000-09-08', 'M', 556386321, 934039307, 'RodrigoGomesSousa@dayrep.com');
 
 
+INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
+	('UP19990001', 'João Pereira Sousa', 'Quadra QR 110, 1666', '1978-09-17', 'M', 857386366, 983728476, 'JoaoPereiraSousa@dayrep.com');
+INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
+	('UP19900001', 'Carolina Cunha Barros', 'Rua Ícaro Ferreira da Costa, 555', '1967-03-08', 'F', 847362831, 963521097, 'CarolinaCunhaBarros@dayrep.com');
+INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
+	('UP19850001', 'Murilo Ferreira Sousa', 'Rua João da Silva Silveira, 1608', '1961-07-09', 'M', 462782701, 876092134, 'MuriloFerreiraSousa@teleworm.us');
+INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
+	('UP19870001', 'Filipe Almeida Pereira', 'Rua Caramuru, 576', '1966-11-28', 'M', 472942948, 832746209, 'FelipeAlmeidaPereira@jourrapide.com');
+INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
+	('UP19970001', 'Filipe Ferreira Castro', 'Rua Cônsul Walter, 1828', '1973-12-23', 'M', 734892348, 954356092, 'FelipeFerreiraCastro@teleworm.us');
+
+
 SELECT *
 FROM PessoaFEUP;
