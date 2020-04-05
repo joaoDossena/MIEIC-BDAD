@@ -301,6 +301,8 @@ INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, 
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
 	('MIEIC-BDAD02', 1, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
+	('MIEIC-BDAD03', 1, 'Sexta-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
+INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
 	('MIEIC-CAL01', 1, 'Quarta-Feira', '08:00:00', '10:00:00', 'MIEIC-CAL');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
 	('MIEIC-SOPE01', 1, 'Quinta-Feira', '08:00:00', '12:00:00', 'MIEIC-SOPE');
@@ -328,6 +330,23 @@ INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, 
 	('MIEIC-PROG01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-PROG');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
 	('MIEIC-FPRO01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-FPRO');
+
+--DocenteTurmaPratica info insertion
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19900001', 'MIEIC-BDAD01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19850001', 'MIEIC-BDAD01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19870001', 'MIEIC-BDAD01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19970001', 'MIEIC-BDAD01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
 
 
 
