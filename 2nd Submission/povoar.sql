@@ -76,11 +76,11 @@ INSERT INTO Estudante (id, anoInscricao, idCurso) VALUES ('UP201800020', 2018, '
 
 
 --Docente info insertion
-INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
-INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
-INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
-INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
-INSERT INTO Docente (id, categoria, departamento) VALUES ('', '', '');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19990001', 'Professor Associado', 'Departamento de Engenharia Informática');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19900001', 'Professor Auxiliar', 'Departamento de Engenharia Informática');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19850001', 'Assistente Convidado', 'Departamento de Engenharia Informática');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19870001', 'Professor Associado', 'Departamento de Engenharia Civil');
+INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19970001', 'Professor Auxiliar', 'Departamento de Engenharia Química');
 
 
 
