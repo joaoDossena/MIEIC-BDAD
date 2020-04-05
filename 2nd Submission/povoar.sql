@@ -261,8 +261,6 @@ INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19870001', 'MIEIC-CMAT');
 INSERT INTO CadeiraDocente (id, idCadeira) VALUES ('UP19970001', 'MIEIC-CMAT');
 
 
-
-
 --Epoca info insertion
 INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2019-2020-2', '2019-2020', 'Segundo');
 INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2019-2020-1', '2019-2020', 'Primeiro');
@@ -273,7 +271,7 @@ INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2017-2018-1', '2017-20
 
 
 
---OcorrenciaCadeiraEpoca
+--OcorrenciaCadeiraEpoca 
 INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('turvdzucldzpmzohenwm', '2019-2020-2');
 INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('pshapuglqjszuhxkzhbl', '2019-2020-1'); 
 INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('hsanpcgyydslybfqtnai', '2019-2020-2'); 
