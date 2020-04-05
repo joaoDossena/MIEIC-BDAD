@@ -176,7 +176,28 @@ INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeir
 INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A07', 'LPOO Exame', 'igdijspbahlzmngoipwv');
 INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A08', 'FPRO Test 1', 'hsanpcgyydslybfqtnai');
 INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('B01', 'CAL Proj 1', 'pshapuglqjszuhxkzhbl');
-INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('B03', 'CAL Proj 1', 'pshapuglqjszuhxkzhbl');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('B03', 'CAL Proj 3', 'pshapuglqjszuhxkzhbl');
+
+--Nota info insertion
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('001', 18, 'A01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('002', 20, 'A01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('003', 12, 'A01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('004', 18, 'A02');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('005', 18, 'A02');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('006', 18, 'A03');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('019', 0, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('031', 19, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('032', 8, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('033', 8, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('034', 10, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('035', 20, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('036', 8, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('037', 8, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('041', 11, 'B01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('042', 8, 'B01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('043', 9, 'B01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('044', 20, 'B01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('045', 20, 'B01');
 
 
 --EstudanteOcorrenciaCadeira info insertion
@@ -201,6 +222,64 @@ INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP2018
 INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800019', 'bbwhrkbjenhvyplwqwtq');
 INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800020', 'emqpjuwkhsnixtlsenhw');
 
+--EstudanteComponenteAvaliacao info insertion
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800001', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800001', 'A02');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800001', 'A03');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800002', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800002', 'A02');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800002', 'A03');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800003', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800004', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800005', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800006', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800007', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800008', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800009', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800010', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800011', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800012', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800013', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800014', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800015', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800016', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800017', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800018', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800019', 'A01');
+INSERT INTO EstudanteComponenteAvaliacao (id, idComponenteAvaliacao) VALUES ('UP201800020', 'A01');
+
+
+--Epoca info insertion
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2019-2020-2', '2019-2020', 'Segundo');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2019-2020-1', '2019-2020', 'Primeiro');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2018-2019-2', '2018-2019', 'Segundo');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2018-2019-1', '2018-2019', 'Primeiro');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2017-2018-2', '2017-2018', 'Segundo');
+INSERT INTO Epoca (idEpoca, anoLetivo, semestre) VALUES ('2017-2018-1', '2017-2018', 'Primeiro');
+
+
+
+--OcorrenciaCadeiraEpoca
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2019-2020-2');
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2019-2020-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2018-2019-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2018-2019-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2017-2018-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2017-2018-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2016-2017-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('6', '2016-2017-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2015-2016-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('2', '2015-2016-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2014-2015-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('6', '2014-2015-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('4', '2013-2014-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2013-2014-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('8', '2012-2013-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2012-2013-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('5', '2011-2012-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('3', '2011-2012-1'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2010-2011-2'); 
+INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('1', '2010-2011-1'); 
 
 --TurmaPratica info insertion
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
