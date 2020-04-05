@@ -175,7 +175,28 @@ INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeir
 INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A07', 'LPOO Exame', 'igdijspbahlzmngoipwv');
 INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A08', 'FPRO Test 1', 'hsanpcgyydslybfqtnai');
 INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('B01', 'CAL Proj 1', 'pshapuglqjszuhxkzhbl');
-INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('B03', 'CAL Proj 1', 'pshapuglqjszuhxkzhbl');
+INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('B03', 'CAL Proj 3', 'pshapuglqjszuhxkzhbl');
+
+--Nota info insertion
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('001', 18, 'A01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('002', 20, 'A01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('003', 12, 'A01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('004', 18, 'A02');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('005', 18, 'A02');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('006', 18, 'A03');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('019', 0, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('031', 19, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('032', 8, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('033', 8, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('034', 10, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('035', 20, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('036', 8, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('037', 8, 'A07');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('041', 11, 'B01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('042', 8, 'B01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('043', 9, 'B01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('044', 20, 'B01');
+INSERT INTO Nota (idNota, nota, idComponenteAvaliacao) VALUES ('045', 20, 'B01');
 
 
 
