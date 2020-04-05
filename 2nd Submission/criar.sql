@@ -24,14 +24,14 @@ CREATE TABLE Curso (
 	nome STRING,
 	grauAcademico STRING,
 	duracao INTEGER,
-	mediaEntrada DOUBLE CHECK (mediaEntrada >= 0 AND mediaEntrada <= 20),
+	mediaEntrada INTEGER CHECK (mediaEntrada >= 0 AND mediaEntrada <= 20),
 	dataInicio DATE
 );
 
 --Cadeira
 DROP TABLE IF EXISTS Cadeira;
 CREATE TABLE Cadeira (
-	idCadeira STRING PRIMARY KEY UNIQUE,
+	cadeiraID STRING PRIMARY KEY UNIQUE,
 	nome STRING,
 	creditos INTEGER,
 	idCurso STRING REFERENCES Curso (idCurso)
@@ -41,7 +41,7 @@ CREATE TABLE Cadeira (
 DROP TABLE IF EXISTS OcorrenciaCadeira;
 CREATE TABLE OcorrenciaCadeira (
 	idOcorrenciaCadeira STRING PRIMARY KEY UNIQUE,
-	idCadeira STRING REFERENCES Cadeira (idCadeira)
+	cadeiraID STRING REFERENCES Cadeira (codigo)
 );
 
 --Epoca
@@ -100,7 +100,7 @@ CREATE TABLE DocenteTurmaPratica (
 DROP TABLE IF EXISTS CadeiraDocente;
 CREATE TABLE CadeiraDocente (
 	id STRING REFERENCES Docente (id),
-	idCadeira STRING REFERENCES Cadeira (idCadeira)
+	cadeiraID STRING REFERENCES Cadeira (cadeiraID)
 );
 
 --OcorrenciaCadeiraEpoca
@@ -118,7 +118,7 @@ CREATE TABLE TurmaPratica (
 	diaSemana STRING CHECK (diaSemana LIKE "Segunda-Feira" OR "Terça-Feira" OR "Quarta-Feira" OR "Quinta-Feira" OR "Sexta-Feira"),
 	horaInicio TIME,
 	horaFim TIME,
-	idCadeira STRING REFERENCES Cadeira (idCadeira)
+	cadeiraID STRING REFERENCES Cadeira (cadeiraID)
 );
 
 --PessoaFEUP

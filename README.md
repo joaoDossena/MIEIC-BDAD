@@ -8,7 +8,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
     - [x] B - Definition of Relational Model
       - [x] Check if the Conceptual Model is correct
       - [x] Define the Relational Model
-    - [x] C - Analysis of Functional Dependencies and Normal Forms
+    - [ ] C - Analysis of Functional Dependencies and Normal Forms
     - [x] D - Creation of a database in SQLite
     - [ ] E - Add restrictions to the database
     - [ ] F - Data loading
