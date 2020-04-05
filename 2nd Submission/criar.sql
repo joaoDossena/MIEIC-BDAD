@@ -24,7 +24,7 @@ CREATE TABLE Curso (
 	nome STRING,
 	grauAcademico STRING,
 	duracao INTEGER,
-	mediaEntrada INTEGER CHECK (mediaEntrada >= 0 AND mediaEntrada <= 20),
+	mediaEntrada DOUBLE CHECK (mediaEntrada >= 0 AND mediaEntrada <= 20),
 	dataInicio DATE
 );
 
