@@ -143,40 +143,27 @@ INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso) VALUES
 	('MIEGI-AMAT', 'Análise Matemática', 6, 'MIEGI');
 
 
-
-
-mhgpjangbhlmettcsdrf
-eardfmtshmjeassvxkfl
-icrqpsxbvpizccwukzfk
-humqjnwovpuwqtyvbfoy
-bhumyauywlldxflmzwyz
-fkmwdmmswmoehjnworss
-qtixskbiuaipwugmwbfd
-bbwhrkbjenhvyplwqwtq
-emqpjuwkhsnixtlsenhw
-
-
 --OcorrenciaCadeira info insertion
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('cefiahhwfijhnhscednv', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('lyvogymnyhltnqpuiwmy', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('igdijspbahlzmngoipwv', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('qhrayebeajqrnasgwutg', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('nsslmoydqntwnpfnoeuu', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('snoxoxoqctxqfyurzysm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('pshapuglqjszuhxkzhbl', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('hqqmbvwstfntexzrwuxk', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('hsanpcgyydslybfqtnai', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('pmbumadztmtxkdtxjizi', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
-INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', '');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('turvdzucldzpmzohenwm', 'MIEIC-BDAD');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('cefiahhwfijhnhscednv', 'MIEIC-BDAD');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('lyvogymnyhltnqpuiwmy', 'MIEIC-SOPE');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('igdijspbahlzmngoipwv', 'MIEIC-LCOM');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('qhrayebeajqrnasgwutg', 'MIEIC-LPOO');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('nsslmoydqntwnpfnoeuu', 'MIEIC-CGRA');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('snoxoxoqctxqfyurzysm', 'MIEIC-CAL');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('pshapuglqjszuhxkzhbl', 'MIEEC-AMAT');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('hqqmbvwstfntexzrwuxk', 'MIEC-AMAT');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('hsanpcgyydslybfqtnai', 'MIEQ-AMAT');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('pmbumadztmtxkdtxjizi', 'MIEA-AMAT');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('mhgpjangbhlmettcsdrf', 'MIEM-AMAT');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('eardfmtshmjeassvxkfl', 'MIEGI-AMAT');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('icrqpsxbvpizccwukzfk', 'MIEIC-PF');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('humqjnwovpuwqtyvbfoy', 'MIEIC-FISI1');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('bhumyauywlldxflmzwyz', 'MIEIC-FISI2');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('fkmwdmmswmoehjnworss', 'MIEIC-CMAT');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('qtixskbiuaipwugmwbfd', 'MIEIC-AMAT');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('bbwhrkbjenhvyplwqwtq', 'MIEIC-FPRO');
+INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('emqpjuwkhsnixtlsenhw', 'MIEIC-PROG');
 
 --ComponenteAvaliacao info insertion
 INSERT INTO ComponenteAvaliacao (idComponenteAvaliacao, nome, idOcorrenciaCadeira) VALUES ('A01', 'BDAD Projeto Entrega 1', 'turvdzucldzpmzohenwm');
