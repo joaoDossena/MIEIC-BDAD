@@ -166,6 +166,27 @@ INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('bbwhrkbj
 INSERT INTO OcorrenciaCadeira (idOcorrenciaCadeira, idCadeira) VALUES ('emqpjuwkhsnixtlsenhw', 'MIEIC-PROG');
 
 
+--EstudanteOcorrenciaCadeira info insertion
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800001', 'turvdzucldzpmzohenwm');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800002', 'pshapuglqjszuhxkzhbl');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800003', 'hsanpcgyydslybfqtnai');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800004', 'pmbumadztmtxkdtxjizi');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800005', 'eardfmtshmjeassvxkfl');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800006', 'cefiahhwfijhnhscednv');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800007', 'lyvogymnyhltnqpuiwmy');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800008', 'igdijspbahlzmngoipwv');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800009', 'qhrayebeajqrnasgwutg');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800010', 'hqqmbvwstfntexzrwuxk');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800011', 'mhgpjangbhlmettcsdrf');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800012', 'nsslmoydqntwnpfnoeuu');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800013', 'snoxoxoqctxqfyurzysm');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800014', 'icrqpsxbvpizccwukzfk');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800015', 'humqjnwovpuwqtyvbfoy');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800016', 'bhumyauywlldxflmzwyz');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800017', 'fkmwdmmswmoehjnworss');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800018', 'qtixskbiuaipwugmwbfd');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800019', 'bbwhrkbjenhvyplwqwtq');
+INSERT INTO EstudanteOcorrenciaCadeira (id, idOcorrenciaCadeira) VALUES ('UP201800020', 'emqpjuwkhsnixtlsenhw');
 
 
 
