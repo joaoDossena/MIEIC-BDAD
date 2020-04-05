@@ -1,7 +1,6 @@
 PRAGMA foreign_keys = on;
 
 --PessoaFEUP info insertion
-
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
 	('UP201800001', 'João Sousa da Silva', 'Rua Lael Ferreira, 429', '1999-01-01', 'M', 393201029, 9384928392, 'jss@gmail.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
@@ -40,7 +39,6 @@ INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) 
     ('UP201800019', 'Filipe Sousa Gomes', '1ª Travessa Alto Vila Rica, 1946', '2000-11-04', 'M', 614940534, 950546747, 'FelipeSouzaGomes@armyspy.com ');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
     ('UP201800020', 'Rodrigo Gomes Sousa', 'Beco Novo, 1620', '2000-09-08', 'M', 556386321, 934039307, 'RodrigoGomesSousa@dayrep.com');
-
 
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
 	('UP19990001', 'João Pereira Sousa', 'Quadra QR 110, 1666', '1978-09-17', 'M', 857386366, 983728476, 'JoaoPereiraSousa@dayrep.com');
@@ -101,8 +99,8 @@ INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInic
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
 	('MIEM', 'Mestrado Integrado em Engenharia Mecânica', 'Mestre', 5, 15, '1995-01-01 10:00:00');
 
---Cadeira info insertion
-INSERT INTO Cadeira (idCadeira, nome, creditos, idCurso)
+
+
 
 
 
