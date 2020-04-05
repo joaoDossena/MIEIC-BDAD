@@ -1,5 +1,23 @@
 PRAGMA foreign_keys = on;
 
+
+--Curso info insertion
+INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
+	('MIEIC', 'Mestrado Integrado em Engenharia Informática e Computação', 'Mestre', 5, 16.5, '2006-01-01 10:00:00');
+INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
+	('MIEEC', 'Mestrado Integrado em Engenharia Eletrotécnica e Computadores', 'Mestre', 5, 15, '1990-01-01 10:00:00');
+INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
+	('MIEC', 'Mestrado Integrado em Engenharia Civil', 'Mestre', 5, 15, '1980-01-01 10:00:00');
+INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
+	('MIEQ', 'Mestrado Integrado em Engenharia Química', 'Mestre', 5, 15, '1990-01-01 10:00:00');
+INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
+	('MIEA', 'Mestrado Integrado em Engenharia do Ambiente', 'Mestre', 5, 15, '1995-01-01 10:00:00');
+INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
+	('MIEGI', 'Mestrado Integrado em Engenharia de Gestão Industrial', 'Mestre', 5, 15, '1995-01-01 10:00:00');
+INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
+	('MIEM', 'Mestrado Integrado em Engenharia Mecânica', 'Mestre', 5, 15, '1995-01-01 10:00:00');
+	
+
 --PessoaFEUP info insertion
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
 	('UP201800001', 'João Sousa da Silva', 'Rua Lael Ferreira, 429', '1999-01-01', 'M', 393201029, 9384928392, 'jss@gmail.com');
@@ -83,23 +101,6 @@ INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19900001', 'Profess
 INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19850001', 'Assistente Convidado', 'Departamento de Engenharia Informática');
 INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19870001', 'Professor Associado', 'Departamento de Engenharia Civil');
 INSERT INTO Docente (id, categoria, departamento) VALUES ('UP19970001', 'Professor Auxiliar', 'Departamento de Engenharia Química');
-
-
---Curso info insertion
-INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEIC', 'Mestrado Integrado em Engenharia Informática e Computação', 'Mestre', 5, 16.5, '2006-01-01 10:00:00');
-INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEEC', 'Mestrado Integrado em Engenharia Eletrotécnica e Computadores', 'Mestre', 5, 15, '1990-01-01 10:00:00');
-INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEC', 'Mestrado Integrado em Engenharia Civil', 'Mestre', 5, 15, '1980-01-01 10:00:00');
-INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEQ', 'Mestrado Integrado em Engenharia Química', 'Mestre', 5, 15, '1990-01-01 10:00:00');
-INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEA', 'Mestrado Integrado em Engenharia do Ambiente', 'Mestre', 5, 15, '1995-01-01 10:00:00');
-INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEGI', 'Mestrado Integrado em Engenharia de Gestão Industrial', 'Mestre', 5, 15, '1995-01-01 10:00:00');
-INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEM', 'Mestrado Integrado em Engenharia Mecânica', 'Mestre', 5, 15, '1995-01-01 10:00:00');
 
 
 --Cadeira info insertion

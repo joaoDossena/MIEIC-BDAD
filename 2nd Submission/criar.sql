@@ -4,7 +4,7 @@ BEGIN TRANSACTION;
 --Estudante
 DROP TABLE IF EXISTS Estudante;
 CREATE TABLE Estudante (
-	id REFERENCES PessoaFEUP (id) PRIMARY KEY UNIQUE,
+	id STRING REFERENCES PessoaFEUP (id) PRIMARY KEY UNIQUE,
 	anoInscricao INTEGER,
 	idCurso REFERENCES Curso (idCurso)
 );
