@@ -10,8 +10,8 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
       - [x] Define the Relational Model
     - [x] C - Analysis of Functional Dependencies and Normal Forms
     - [x] D - Creation of a database in SQLite
-    - [ ] E - Add restrictions to the database
-    - [ ] F - Data loading
+    - [x] E - Add restrictions to the database
+    - [x] F - Data loading
   - [ ] 3rd submission (G and H) [May 24th]
     - [ ] G - 
     - [ ] H - 
