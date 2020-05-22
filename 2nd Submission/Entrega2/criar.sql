@@ -70,9 +70,13 @@ CREATE TABLE OcorrenciaCadeira (
 --Epoca
 DROP TABLE IF EXISTS Epoca;
 CREATE TABLE Epoca (
-	idEpoca STRING PRIMARY KEY,
-	anoLetivo STRING,
-	semestre STRING CHECK (semestre = "Primeiro" OR semestre = "Segundo")
+	idEpoca STRING PRIMARY KEY
+					NOT NULL,
+	anoLetivo STRING
+				NOT NULL,
+	semestre STRING 
+			CHECK (semestre = "Primeiro" OR semestre = "Segundo")
+			NOT NULL
 );
 
 --ComponenteAvaliacao
