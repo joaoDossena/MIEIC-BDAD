@@ -4,16 +4,16 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
 ## To do:
   - [ ] 3rd submission (G and H) [May 24th] **(Vale 50% da nota)**
     - [ ] G - Interrogação da Base de dados
-      - [ ] Interrogação 1
-      - [ ] Interrogação 2
-      - [ ] Interrogação 3
-      - [ ] Interrogação 4
-      - [ ] Interrogação 5
-      - [ ] Interrogação 6
-      - [ ] Interrogação 7
-      - [ ] Interrogação 8
-      - [ ] Interrogação 9
-      - [ ] Interrogação 10
+      - [x] Int1 - Lista os nomes dos Estudantes da FEUP por ordem alfabética, como numa lista de chamada
+      - [ ] Int2
+      - [ ] Int3
+      - [ ] Int4
+      - [ ] Int5
+      - [ ] Int6
+      - [ ] Int7
+      - [ ] Int8
+      - [ ] Int9
+      - [ ] Int10
       - [ ] Adicionar as interrogações ao relatório
     - [ ] H - Adição de gatilhos à base de dados
       - [ ] gatilho1_adiciona.sql
