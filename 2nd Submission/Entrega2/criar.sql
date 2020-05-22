@@ -106,8 +106,13 @@ CREATE TABLE CadeiraDocente (
 --OcorrenciaCadeiraEpoca
 DROP TABLE IF EXISTS OcorrenciaCadeiraEpoca;
 CREATE TABLE OcorrenciaCadeiraEpoca (
-	idOcorrenciaCadeira STRING REFERENCES OcorrenciaCadeira (idOcorrenciaCadeira),
-	idEpoca STRING REFERENCES Epoca (idEpoca)
+	idOcorrenciaCadeira STRING 
+				REFERENCES OcorrenciaCadeira (idOcorrenciaCadeira)
+				NOT NULL,
+	idEpoca STRING 
+				REFERENCES Epoca (idEpoca),
+				NOT NULL 
+	PRIMARY KEY (idOcorrenciaCadeira, idEpoca) NOT NULL
 );
 
 --TurmaPratica
