@@ -4,7 +4,19 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
 ## To do:
   - [ ] 3rd submission (G and H) [May 24th] **(Vale 50% da nota)**
     - [ ] G - Interrogação da Base de dados
+      - [ ] Interrogação 1
+      - [ ] Interrogação 2
+      - [ ] Interrogação 3
+      - [ ] Interrogação 4
+      - [ ] Interrogação 5
+      - [ ] Interrogação 6
+      - [ ] Interrogação 7
+      - [ ] Interrogação 8
+      - [ ] Interrogação 9
+      - [ ] Interrogação 10
+      - [ ] Adicionar as interrogações ao relatório
     - [ ] H - Adição de gatilhos à base de dados
+      - [ ]        
   - [ ] Consertar problemas da submissão anterior:
     - [ ] diagrama de classes UML: As associações entre Docente e Cadeira e entre TurmaPratica e Cadeira deviam ser antes com OcorrenciaCadeira em vez de Cadeira
     - [ ] diagrama de classes UML: A nota devia ser um atributo da associação entre Estudante e ComponenteAvaliação
@@ -13,7 +25,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
     - [ ] email também é chave da relação PessoaFEUP (Mudar nas dependencias funcionais)
     - [ ] NIF é um atributo primo da relação PessoaFEUP (Mudar nas dependencias funcionais)
     - [ ] em Pessoa FEUP, nif deve ser unico; telefone deve ser unico; email deve ser unico, então as dependencias funcionais deviam refletir isso mesmo (Mudar nas dependencias funcionais)
-    - [x] Um atributo ser simultaneamente PRIMARY KEY e UNIQUE é redundante
+    - [x] Um atributo ser simultaneamente PRIMARY KEY e UNIQUE é redundante (**UNIQUE  foi retirado das chaves primárias**)
     - [x] Não definiram a chave primária das tabelas (**Já foram definidas as chaves primárias**)
       - [x] EstudanteOcorrenciaCadeira;
       - [x] EstudanteComponenteAvaliacao;
