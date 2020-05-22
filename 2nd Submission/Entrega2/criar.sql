@@ -124,14 +124,15 @@ CREATE TABLE TurmaPratica (
 --PessoaFEUP
 DROP TABLE IF EXISTS PessoaFEUP;
 CREATE TABLE PessoaFEUP (
-	id STRING PRIMARY KEY,
+	id STRING UNIQUE,
 	nome STRING,
 	morada STRING,
 	dataNasc DATE,
 	sexo CHAR CHECK (sexo = 'M' OR sexo = 'F'),
 	NIF INTEGER UNIQUE,
 	telefone INTEGER UNIQUE,
-	email STRING CHECK (email LIKE '%@%.%') UNIQUE
+	email STRING CHECK (email LIKE '%@%.%') UNIQUE,
+	PRIMARY KEY (id, NIF, telefone, email)
 );
 
 
