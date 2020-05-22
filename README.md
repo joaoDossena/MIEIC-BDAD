@@ -26,13 +26,14 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
       - [ ] gatilho2_verifica.sql 
       - [ ] gatilho3_verifica.sql
   - [ ] Consertar problemas da submissão anterior:
+    - [ ] Alterar a análise de formas normais e dependências funcionais
     - [x] diagrama de classes UML: As associações entre Docente e Cadeira e entre TurmaPratica e Cadeira deviam ser antes com OcorrenciaCadeira em vez de Cadeira
     - [x] diagrama de classes UML: A nota devia ser um atributo da associação entre Estudante e ComponenteAvaliação
     - [x] A associação entre OcorrenciaCadeira e Epoca devia ser \*-1
     - [x] O atributo chave externa idOcorrenciaCadeira-> OcorrenciaCadeira está a mais na relação ComponenteAvaliacao
-    - [ ] email também é chave da relação PessoaFEUP (Mudar nas dependencias funcionais)
-    - [ ] NIF é um atributo primo da relação PessoaFEUP (Mudar nas dependencias funcionais)
-    - [ ] em Pessoa FEUP, nif deve ser unico; telefone deve ser unico; email deve ser unico, então as dependencias funcionais deviam refletir isso mesmo (Mudar nas dependencias funcionais)
+    - [x] email também é chave da relação PessoaFEUP (**Dependências funcionais alteradas**)
+    - [x] NIF é um atributo primo da relação PessoaFEUP (**Dependências funcionais alteradas**)
+    - [x] em Pessoa FEUP, nif deve ser unico; telefone deve ser unico; email deve ser unico, então as dependencias funcionais deviam refletir isso mesmo (**Dependências funcionais alteradas**)
     - [x] Um atributo ser simultaneamente PRIMARY KEY e UNIQUE é redundante (**UNIQUE  foi retirado das chaves primárias**)
     - [x] Não definiram a chave primária das tabelas (**Já foram definidas as chaves primárias**)
       - [x] EstudanteOcorrenciaCadeira;
