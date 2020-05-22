@@ -4,7 +4,7 @@ BEGIN TRANSACTION;
 --Estudante
 DROP TABLE IF EXISTS Estudante;
 CREATE TABLE Estudante (
-	id STRING REFERENCES PessoaFEUP (id) PRIMARY KEY UNIQUE,
+	id STRING REFERENCES PessoaFEUP (id) PRIMARY KEY,
 	anoInscricao INTEGER,
 	idCurso REFERENCES Curso (idCurso)
 );
@@ -12,7 +12,7 @@ CREATE TABLE Estudante (
 --Docente
 DROP TABLE IF EXISTS Docente;
 CREATE TABLE Docente (
-	id STRING REFERENCES PessoaFEUP (id) PRIMARY KEY UNIQUE,
+	id STRING REFERENCES PessoaFEUP (id) PRIMARY KEY,
 	categoria STRING,
 	departamento STRING
 );
@@ -20,7 +20,7 @@ CREATE TABLE Docente (
 --Curso
 DROP TABLE IF EXISTS Curso;
 CREATE TABLE Curso (
-	idCurso STRING PRIMARY KEY UNIQUE,
+	idCurso STRING PRIMARY KEY,
 	nome STRING,
 	grauAcademico STRING,
 	duracao INTEGER,
@@ -31,7 +31,7 @@ CREATE TABLE Curso (
 --Cadeira
 DROP TABLE IF EXISTS Cadeira;
 CREATE TABLE Cadeira (
-	idCadeira STRING PRIMARY KEY UNIQUE,
+	idCadeira STRING PRIMARY KEY,
 	nome STRING,
 	creditos DOUBLE,
 	idCurso STRING REFERENCES Curso (idCurso)
@@ -40,14 +40,14 @@ CREATE TABLE Cadeira (
 --OcorrenciaCadeira
 DROP TABLE IF EXISTS OcorrenciaCadeira;
 CREATE TABLE OcorrenciaCadeira (
-	idOcorrenciaCadeira STRING PRIMARY KEY UNIQUE,
+	idOcorrenciaCadeira STRING PRIMARY KEY,
 	idCadeira STRING REFERENCES Cadeira (idCadeira)
 );
 
 --Epoca
 DROP TABLE IF EXISTS Epoca;
 CREATE TABLE Epoca (
-	idEpoca STRING PRIMARY KEY UNIQUE,
+	idEpoca STRING PRIMARY KEY,
 	anoLetivo STRING,
 	semestre STRING CHECK (semestre = "Primeiro" OR semestre = "Segundo")
 );
@@ -55,7 +55,7 @@ CREATE TABLE Epoca (
 --ComponenteAvaliacao
 DROP TABLE IF EXISTS ComponenteAvaliacao;
 CREATE TABLE ComponenteAvaliacao (
-	idComponenteAvaliacao STRING PRIMARY KEY UNIQUE,
+	idComponenteAvaliacao STRING PRIMARY KEY,
 	nome STRING,
 	idOcorrenciaCadeira STRING REFERENCES OcorrenciaCadeira (idOcorrenciaCadeira)
 );
@@ -63,7 +63,7 @@ CREATE TABLE ComponenteAvaliacao (
 --Nota
 DROP TABLE IF EXISTS Nota;
 CREATE TABLE Nota (
-	idNota STRING PRIMARY KEY UNIQUE,
+	idNota STRING PRIMARY KEY,
 	nota DOUBLE,
 	idComponenteAvaliacao STRING REFERENCES ComponenteAvaliacao (idComponenteAvaliacao)
 );
@@ -113,7 +113,7 @@ CREATE TABLE OcorrenciaCadeiraEpoca (
 --TurmaPratica
 DROP TABLE IF EXISTS TurmaPratica;
 CREATE TABLE TurmaPratica (
-	idTurmaPratica STRING PRIMARY KEY UNIQUE,
+	idTurmaPratica STRING PRIMARY KEY,
 	numEstudantes INTEGER,
 	diaSemana STRING CHECK (diaSemana in ("Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira")),
 	horaInicio TIME,
@@ -124,14 +124,14 @@ CREATE TABLE TurmaPratica (
 --PessoaFEUP
 DROP TABLE IF EXISTS PessoaFEUP;
 CREATE TABLE PessoaFEUP (
-	id STRING PRIMARY KEY UNIQUE,
+	id STRING PRIMARY KEY,
 	nome STRING,
 	morada STRING,
 	dataNasc DATE,
 	sexo CHAR CHECK (sexo = 'M' OR sexo = 'F'),
 	NIF INTEGER UNIQUE,
 	telefone INTEGER UNIQUE,
-	email STRING UNIQUE
+	email STRING CHECK (email LIKE '%@%.%') UNIQUE
 );
 
 
