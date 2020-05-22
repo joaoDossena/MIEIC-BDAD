@@ -19,7 +19,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
       - [x] EstudanteComponenteAvaliacao;
       - [x] EstudanteTurmaPratica;
       - [x] DocenteTurmaPratica;
-      - [x] CadeiraDocente
+      - [x] CadeiraDocente;
       - [x] OcorrenciaCadeiraEpoca
 
 ### G. Interrogação da Base de dados:
