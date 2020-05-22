@@ -4,44 +4,67 @@ BEGIN TRANSACTION;
 --Estudante
 DROP TABLE IF EXISTS Estudante;
 CREATE TABLE Estudante (
-	id STRING REFERENCES PessoaFEUP (id) PRIMARY KEY,
-	anoInscricao INTEGER,
+	id STRING REFERENCES PessoaFEUP (id)
+			PRIMARY KEY
+			NOT NULL,
+	anoInscricao INTEGER
+				NOT NULL,
 	idCurso REFERENCES Curso (idCurso)
+			NOT NULL
 );
 
 --Docente
 DROP TABLE IF EXISTS Docente;
 CREATE TABLE Docente (
-	id STRING REFERENCES PessoaFEUP (id) PRIMARY KEY,
-	categoria STRING,
+	id STRING REFERENCES PessoaFEUP (id)
+			PRIMARY KEY
+			NOT NULL,
+	categoria STRING
+				NOT NULL,
 	departamento STRING
+				NOT NULL
 );
 
 --Curso
 DROP TABLE IF EXISTS Curso;
 CREATE TABLE Curso (
-	idCurso STRING PRIMARY KEY,
-	nome STRING,
-	grauAcademico STRING,
-	duracao INTEGER,
-	mediaEntrada DOUBLE CHECK (mediaEntrada >= 0 AND mediaEntrada <= 20),
+	idCurso STRING PRIMARY KEY
+					NOT NULL,
+	nome STRING
+		NOT NULL,
+	grauAcademico STRING
+					NOT NULL,
+	duracao INTEGER
+			NOT NULL,
+	mediaEntrada DOUBLE 
+				CHECK (mediaEntrada >= 0 AND mediaEntrada <= 20)
+				NOT NULL,
 	dataInicio DATE
+				NOT NULL
 );
 
 --Cadeira
 DROP TABLE IF EXISTS Cadeira;
 CREATE TABLE Cadeira (
-	idCadeira STRING PRIMARY KEY,
-	nome STRING,
-	creditos DOUBLE,
-	idCurso STRING REFERENCES Curso (idCurso)
+	idCadeira STRING PRIMARY KEY
+						NOT NULL,
+	nome STRING
+		NOT NULL,
+	creditos DOUBLE
+			NOT NULL,
+	idCurso STRING 
+			REFERENCES Curso (idCurso)
+			NOT NULL
 );
 
 --OcorrenciaCadeira
 DROP TABLE IF EXISTS OcorrenciaCadeira;
 CREATE TABLE OcorrenciaCadeira (
-	idOcorrenciaCadeira STRING PRIMARY KEY,
-	idCadeira STRING REFERENCES Cadeira (idCadeira)
+	idOcorrenciaCadeira STRING PRIMARY KEY
+								NOT NULL,
+	idCadeira STRING 
+			REFERENCES Cadeira (idCadeira)
+			NOT NULL
 );
 
 --Epoca
