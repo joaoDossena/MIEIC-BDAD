@@ -14,11 +14,11 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
     - [x] NIF é um atributo primo da relação PessoaFEUP (**Colocado como parte da Primary Key de PessoaFEUP**)
     - [ ] em Pessoa FEUP, nif deve ser unico; telefone deve ser unico; email deve ser unico, então as dependencias funcionais deviam refletir isso mesmo
     - [x] Um atributo ser simultaneamente PRIMARY KEY e UNIQUE é redundante
-    - [ ] Não definiram a chave primária das tabelas:
-      - [ ] EstudanteOcorrenciaCadeira;
-      - [ ] EstudanteComponenteAvaliacao;
-      - [ ] EstudanteTurmaPratica;
-      - [ ] DocenteTurmaPratica;
+    - [x] Não definiram a chave primária das tabelas (**Já foram definidas as chaves primárias**)
+      - [x] EstudanteOcorrenciaCadeira;
+      - [x] EstudanteComponenteAvaliacao;
+      - [x] EstudanteTurmaPratica;
+      - [x] DocenteTurmaPratica;
       - [x] CadeiraDocente
       - [x] OcorrenciaCadeiraEpoca
 
