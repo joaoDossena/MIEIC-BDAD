@@ -113,12 +113,21 @@ CREATE TABLE OcorrenciaCadeiraEpoca (
 --TurmaPratica
 DROP TABLE IF EXISTS TurmaPratica;
 CREATE TABLE TurmaPratica (
-	idTurmaPratica STRING PRIMARY KEY,
-	numEstudantes INTEGER,
-	diaSemana STRING CHECK (diaSemana in ("Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira")),
-	horaInicio TIME,
-	horaFim TIME,
-	idCadeira STRING REFERENCES Cadeira (idCadeira)
+	idTurmaPratica STRING PRIMARY KEY
+					NOT NULL,
+	numEstudantes INTEGER
+				NOT NULL,
+	diaSemana STRING 
+	CHECK (diaSemana in 
+		("Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira"))
+		NOT NULL,
+	horaInicio TIME
+				NOT NULL,
+	horaFim TIME
+			NOT NULL,
+	idCadeira STRING
+			REFERENCES Cadeira (idCadeira)
+			NOT NULL
 );
 
 --PessoaFEUP
