@@ -339,15 +339,15 @@ INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19850001', 'MIEI
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19870001', 'MIEIC-BDAD01');
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19970001', 'MIEIC-BDAD01');
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD03');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-CGRA01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-CGRA02');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEEC-AMAT01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEC-AMAT01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEQ-AMAT01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEGI-AMAT01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEA-AMAT01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-PROG01');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-FPRO01');
 
 
 --EstudanteTurmaPratica info insertion
