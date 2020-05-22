@@ -55,17 +55,25 @@ CREATE TABLE Epoca (
 --ComponenteAvaliacao
 DROP TABLE IF EXISTS ComponenteAvaliacao;
 CREATE TABLE ComponenteAvaliacao (
-	idComponenteAvaliacao STRING PRIMARY KEY,
-	nome STRING,
-	idOcorrenciaCadeira STRING REFERENCES OcorrenciaCadeira (idOcorrenciaCadeira)
+	idComponenteAvaliacao STRING PRIMARY KEY
+								NOT NULL,
+	nome STRING
+		NOT NULL,
+	idOcorrenciaCadeira STRING 
+						REFERENCES OcorrenciaCadeira (idOcorrenciaCadeira)
+						NOT NULL
 );
 
 --Nota
 DROP TABLE IF EXISTS Nota;
 CREATE TABLE Nota (
-	idNota STRING PRIMARY KEY,
-	nota DOUBLE,
-	idComponenteAvaliacao STRING REFERENCES ComponenteAvaliacao (idComponenteAvaliacao)
+	idNota STRING PRIMARY KEY
+					NOT NULL,
+	nota DOUBLE
+		NOT NULL,
+	idComponenteAvaliacao STRING 
+						  REFERENCES ComponenteAvaliacao (idComponenteAvaliacao)
+						  NOT NULL
 );
 
 --EstudanteOcorrenciaCadeira
