@@ -8,7 +8,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
   - [ ] Consertar problemas da submissão anterior:
     - [x] diagrama de classes UML: As associações entre Docente e Cadeira e entre TurmaPratica e Cadeira deviam ser antes com OcorrenciaCadeira em vez de Cadeira
     - [x] diagrama de classes UML: A nota devia ser um atributo da associação entre Estudante e ComponenteAvaliação
-    - [ ] A associação entre OcorrenciaCadeira e Epoca devia ser \*-1
+    - [x] A associação entre OcorrenciaCadeira e Epoca devia ser \*-1
     - [ ] O atributo chave externa idOcorrenciaCadeira-> OcorrenciaCadeira está a mais na relação ComponenteAvaliacao
     - [ ] email também é chave da relação PessoaFEUP (Mudar nas dependencias funcionais)
     - [ ] NIF é um atributo primo da relação PessoaFEUP (Mudar nas dependencias funcionais)
