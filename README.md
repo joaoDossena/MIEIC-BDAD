@@ -4,16 +4,36 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
 ## To do:
   - [ ] 3rd submission (G and H) [May 24th] **(Vale 50% da nota)**
     - [ ] G - Interrogação da Base de dados
+      - [ ] Interrogação 1
+      - [ ] Interrogação 2
+      - [ ] Interrogação 3
+      - [ ] Interrogação 4
+      - [ ] Interrogação 5
+      - [ ] Interrogação 6
+      - [ ] Interrogação 7
+      - [ ] Interrogação 8
+      - [ ] Interrogação 9
+      - [ ] Interrogação 10
+      - [ ] Adicionar as interrogações ao relatório
     - [ ] H - Adição de gatilhos à base de dados
+      - [ ] gatilho1_adiciona.sql
+      - [ ] gatilho2_adiciona.sql
+      - [ ] gatilho3_adiciona.sql
+      - [ ] gatilho1_remove.sql
+      - [ ] gatilho2_remove.sql
+      - [ ] gatilho3_remove.sql
+      - [ ] gatilho1_verifica.sql 
+      - [ ] gatilho2_verifica.sql 
+      - [ ] gatilho3_verifica.sql
   - [ ] Consertar problemas da submissão anterior:
     - [x] diagrama de classes UML: As associações entre Docente e Cadeira e entre TurmaPratica e Cadeira deviam ser antes com OcorrenciaCadeira em vez de Cadeira
     - [x] diagrama de classes UML: A nota devia ser um atributo da associação entre Estudante e ComponenteAvaliação
-    - [ ] A associação entre OcorrenciaCadeira e Epoca devia ser \*-1
+    - [x] A associação entre OcorrenciaCadeira e Epoca devia ser \*-1
     - [ ] O atributo chave externa idOcorrenciaCadeira-> OcorrenciaCadeira está a mais na relação ComponenteAvaliacao
     - [ ] email também é chave da relação PessoaFEUP (Mudar nas dependencias funcionais)
     - [ ] NIF é um atributo primo da relação PessoaFEUP (Mudar nas dependencias funcionais)
     - [ ] em Pessoa FEUP, nif deve ser unico; telefone deve ser unico; email deve ser unico, então as dependencias funcionais deviam refletir isso mesmo (Mudar nas dependencias funcionais)
-    - [x] Um atributo ser simultaneamente PRIMARY KEY e UNIQUE é redundante
+    - [x] Um atributo ser simultaneamente PRIMARY KEY e UNIQUE é redundante (**UNIQUE  foi retirado das chaves primárias**)
     - [x] Não definiram a chave primária das tabelas (**Já foram definidas as chaves primárias**)
       - [x] EstudanteOcorrenciaCadeira;
       - [x] EstudanteComponenteAvaliacao;
@@ -45,7 +65,8 @@ Em gatilhoN_adiciona.sql, deve ser incluídaa instrução SQL que permitecriar o
 Quando esta instrução é executada, a ação que desencadeou o gatilho é desfeita e é apresentada a mensagem de erro pretendida.
 
 No ficheiro gatilhoN_remove.sql deve ser incluída a instrução que elimina o gatilho da base de dados. No ficheiro gatilhoN_verifica.sql devem ser incluídas as instruções SQL que permitem confirmar que o gatilho está bem implementado. Por exemplo, se o gatilho inserir um tuplo na relação R2 sempre que seja inserido um tuplo na relação R1, este ficheiro deverá ter instruções semelhantes a:
-  SELECT * FROM TABLER2;INSERT INTO R1VALUES(valor1, valor2, ...);
+  SELECT * FROM TABLER2;
+  INSERT INTO R1VALUES(valor1, valor2, ...);
   SELECT * FROM TABLE R2;
 
 No relatório deve descrever sucintamente,de forma ordenada e em linguagem natural,os 3 gatilhos implementados.
