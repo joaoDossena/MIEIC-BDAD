@@ -85,19 +85,24 @@ CREATE TABLE EstudanteComponenteAvaliacao (
 --EstudanteTurmaPratica
 DROP TABLE IF EXISTS EstudanteTurmaPratica;
 CREATE TABLE EstudanteTurmaPratica (
-	id STRING REFERENCES Estudante (id),
-	idTurmaPratica STRING REFERENCES TurmaPratica (idTurmaPratica)
+	id STRING
+		REFERENCES Estudante (id)
+		NOT NULL,
+	idTurmaPratica STRING
+		REFERENCES TurmaPratica (idTurmaPratica)
+		NOT NULL,
+	PRIMARY KEY (id, idTurmaPratica)
 );
 
 --DocenteTurmaPratica
 DROP TABLE IF EXISTS DocenteTurmaPratica;
 CREATE TABLE DocenteTurmaPratica (
 	id STRING 
-			REFERENCES Docente (id)
-			NOT NULL,
+		REFERENCES Docente (id)
+		NOT NULL,
 	idTurmaPratica STRING
-			REFERENCES TurmaPratica (idTurmaPratica)
-			NOT NULL,
+		REFERENCES TurmaPratica (idTurmaPratica)
+		NOT NULL,
 	PRIMARY KEY (id, idTurmaPratica)
 );
 
