@@ -340,7 +340,7 @@ INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19870001', 'MIEI
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19970001', 'MIEIC-BDAD01');
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD02');
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-CGRA01');
-INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-CGRA02');
+INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEM-AMAT01');
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEEC-AMAT01');
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEC-AMAT01');
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEQ-AMAT01');
