@@ -10,9 +10,9 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
     - [ ] diagrama de classes UML: A nota devia ser um atributo da associação entre Estudante e ComponenteAvaliação
     - [ ] A associação entre OcorrenciaCadeira e Epoca devia ser \*-1
     - [ ] O atributo chave externa idOcorrenciaCadeira-> OcorrenciaCadeira está a mais na relação ComponenteAvaliacao
-    - [x] email também é chave da relação PessoaFEUP (**Colocado como parte da Primary Key de PessoaFEUP**)
-    - [x] NIF é um atributo primo da relação PessoaFEUP (**Colocado como parte da Primary Key de PessoaFEUP**)
-    - [ ] em Pessoa FEUP, nif deve ser unico; telefone deve ser unico; email deve ser unico, então as dependencias funcionais deviam refletir isso mesmo
+    - [ ] email também é chave da relação PessoaFEUP (Mudar nas dependencias funcionais)
+    - [ ] NIF é um atributo primo da relação PessoaFEUP (Mudar nas dependencias funcionais)
+    - [ ] em Pessoa FEUP, nif deve ser unico; telefone deve ser unico; email deve ser unico, então as dependencias funcionais deviam refletir isso mesmo (Mudar nas dependencias funcionais)
     - [x] Um atributo ser simultaneamente PRIMARY KEY e UNIQUE é redundante
     - [x] Não definiram a chave primária das tabelas (**Já foram definidas as chaves primárias**)
       - [x] EstudanteOcorrenciaCadeira;
