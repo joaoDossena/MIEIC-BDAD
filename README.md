@@ -14,7 +14,13 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
     - [x] NIF é um atributo primo da relação PessoaFEUP (**Colocado como parte da Primary Key de PessoaFEUP**)
     - [ ] em Pessoa FEUP, nif deve ser unico; telefone deve ser unico; email deve ser unico, então as dependencias funcionais deviam refletir isso mesmo
     - [x] Um atributo ser simultaneamente PRIMARY KEY e UNIQUE é redundante
-    - [ ] Não definiram a chave primária das tabelas EstudanteOcorrenciaCadeira, EstudanteComponenteAvaliacao, EstudanteTurmaPratica, DocenteTurmaPratica, CadeiraDocente e OcorrenciaCadeiraEpoca
+    - [ ] Não definiram a chave primária das tabelas:
+      - [ ] EstudanteOcorrenciaCadeira;
+      - [ ] EstudanteComponenteAvaliacao;
+      - [ ] EstudanteTurmaPratica;
+      - [ ] DocenteTurmaPratica;
+      - [x] CadeiraDocente
+      - [x] OcorrenciaCadeiraEpoca
 
 ### G. Interrogação da Base de dados:
 Para esta tarefa deve ser definido um conjunto de interrogações pertinentes para o contexto da base de dados. Por exemplo, uma interrogação que liste os países existentes numa base de dados de uma biblioteca é menos pertinente do que uma interrogação que lista os livros mais requisitados num dado período. Deste conjunto, devem ser selecionadas 10 interrogações que:
