@@ -36,7 +36,7 @@ INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) 
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
     ('UP201800008', 'Giovanna Almeida Barbosa', 'Rua E, 1101', '2000-10-31', 'F', 832543573, 930505156, 'gabarbosa@gmail.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
-    ('UP201800009', 'Joao Sousa Rocha', 'Rua Gotthard Kunzli, 715', '2000-03-17', 'M', 731640385, 847025574, 'jsrocha@gmail.com');
+    ('UP201800009', 'João Sousa Rocha', 'Rua Gotthard Kunzli, 715', '2000-03-17', 'M', 731640385, 847025574, 'jsrocha@gmail.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
     ('UP201800010', 'Marcos Dias Azevedo', 'Rua Zambugueiro, 1542', '1999-07-29', 'M', 254936802, 992326162, 'mda@hotmail.com');
 INSERT INTO PessoaFEUP (id, nome, morada, dataNasc, sexo, NIF, telefone, email) VALUES
