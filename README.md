@@ -6,7 +6,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
     - [ ] G - Interrogação da Base de dados
       - [x] Int1 - Lista os nomes dos Estudantes da FEUP por ordem alfabética, como numa lista de chamada
       - [x] Int2 - Lista os tuplos nota, idCadeira, tal que a nota seja menor que 10
-      - [ ] Int3
+      - [x] Int3 - Conta quantos Docentes têm um id de antes do ano 2000
       - [ ] Int4
       - [ ] Int5
       - [ ] Int6
