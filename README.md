@@ -9,7 +9,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
       - [x] Int3 - Conta quantos Docentes têm um id de antes do ano 2000
       - [x] Int4 - Lista os horários de início e fim das turmas práticas 01 do curso MIEIC, ordenados por duração da aula
       - [x] Int5 - Lista id, nome e número de cadeiras em que os Docentes lecionam
-      - [ ] Int6 -
+      - [x] Int6 - Mostra a média de número de estudantes nas Turmas Práticas com aula na Terça-Feira
       - [ ] Int7 - 
       - [ ] Int8 - 
       - [ ] Int9 - 
