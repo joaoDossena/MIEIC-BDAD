@@ -13,7 +13,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
       - [x] Int7 - Mostra os Cursos com, respectivamente, maior e menor médias de entrada
       - [x] Int8 - Mostra os Estudantes e a soma do número de créditos das Cadeiras em que estão inscritos
       - [x] Int9 - Lista as Estudantes que se inscreveram na FEUP em 2018 e que podem participar da Tuna Feminina da FEUP (Todas as mulheres)
-      - [ ] Int10 - 
+      - [x] Int10 - Lista quantos Docentes com categoria de Professor Auxiliar existem por departamento
       - [ ] Adicionar as interrogações ao relatório
     - [ ] H - Adição de gatilhos à base de dados
       - [ ] gatilho1_adiciona.sql
