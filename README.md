@@ -5,15 +5,15 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
   - [ ] 3rd submission (G and H) [May 24th] **(Vale 50% da nota)**
     - [ ] G - Interrogação da Base de dados
       - [x] Int1 - Lista os nomes dos Estudantes da FEUP por ordem alfabética, como numa lista de chamada
-      - [ ] Int2
-      - [ ] Int3
-      - [ ] Int4
-      - [ ] Int5
-      - [ ] Int6
-      - [ ] Int7
-      - [ ] Int8
-      - [ ] Int9
-      - [ ] Int10
+      - [x] Int2 - Lista os tuplos nota, idCadeira, tal que a nota seja menor que 10
+      - [x] Int3 - Conta quantos Docentes têm um id de antes do ano 2000
+      - [x] Int4 - Lista os horários de início e fim das turmas práticas 01 do curso MIEIC, ordenados por duração da aula
+      - [x] Int5 - Lista id, nome e número de cadeiras em que os Docentes lecionam
+      - [x] Int6 - Mostra a média de número de estudantes nas Turmas Práticas com aula na Terça-Feira
+      - [x] Int7 - Mostra os Cursos com, respectivamente, maior e menor médias de entrada
+      - [x] Int8 - Mostra os Estudantes e a soma do número de créditos das Cadeiras em que estão inscritos
+      - [x] Int9 - Lista as Estudantes que se inscreveram na FEUP em 2018 e que podem participar da Tuna Feminina da FEUP (Todas as mulheres)
+      - [x] Int10 - Lista quantos Docentes com categoria de Professor Auxiliar existem por departamento
       - [ ] Adicionar as interrogações ao relatório
     - [ ] H - Adição de gatilhos à base de dados
       - [ ] gatilho1_adiciona.sql
@@ -60,15 +60,17 @@ Os nomes dos ficheiros devem corresponder à ordenação das interrogações men
 ### H. Adição de gatilhos à base de dados:
 Por fim, devem ser definidos 3 gatilhos que sejam úteis para a monitorização e manutenção da base de dados. Pelo menos um dos gatilhos deve implementar uma restrição. Para cada gatilho devem ser criados 3 ficheiros: gatilhoN_adiciona.sql,gatilhoN_remove.sqle gatilhoN_verifica.sql, com N = 1, 2 ou 3.
 
-Em gatilhoN_adiciona.sql, deve ser incluídaa instrução SQL que permitecriar o gatilho. Caso a restrição para a qualse está a criar o gatilho possa ser violada por mais do que um tipo de modificação à base de dados, pode ser necessáriocriar mais do que um gatilho para garantir a restrição. Se o gatilho descobrir que uma restrição está a ser violada, pode modificar a base de dados de forma a garantir que a violação é anuladaou pode desencadear um erro. Um gatilho SQLite pode desencadear um erro através de:
+Em gatilhoN_adiciona.sql, deve ser incluída a instrução SQL que permite criar o gatilho. Caso a restrição para a qual se está a criar o gatilho possa ser violada por mais do que um tipo de modificação à base de dados, pode ser necessário criar mais do que um gatilho para garantir a restrição. Se o gatilho descobrir que uma restrição está a ser violada, pode modificar a base de dados de forma a garantir que a violação é anulada ou pode desencadear um erro. Um gatilho SQLite pode desencadear um erro através de:
   SELECT raise(rollback, ‘<mensagem de erro>’);
 
 Quando esta instrução é executada, a ação que desencadeou o gatilho é desfeita e é apresentada a mensagem de erro pretendida.
 
-No ficheiro gatilhoN_remove.sql deve ser incluída a instrução que elimina o gatilho da base de dados. No ficheiro gatilhoN_verifica.sql devem ser incluídas as instruções SQL que permitem confirmar que o gatilho está bem implementado. Por exemplo, se o gatilho inserir um tuplo na relação R2 sempre que seja inserido um tuplo na relação R1, este ficheiro deverá ter instruções semelhantes a:
+No ficheiro gatilhoN_remove.sql deve ser incluída a instrução que elimina o gatilho da base de dados. 
+
+No ficheiro gatilhoN_verifica.sql devem ser incluídas as instruções SQL que permitem confirmar que o gatilho está bem implementado. Por exemplo, se o gatilho inserir um tuplo na relação R2 sempre que seja inserido um tuplo na relação R1, este ficheiro deverá ter instruções semelhantes a:
   SELECT * FROM TABLER2;
   INSERT INTO R1VALUES(valor1, valor2, ...);
   SELECT * FROM TABLE R2;
 
-No relatório deve descrever sucintamente,de forma ordenada e em linguagem natural,os 3 gatilhos implementados.
-Os nomes dos ficheiros devem corresponderà ordenação das interrogações mencionadas no relatório. Em cada um dos ficheiros, deve ser ativada a verificação de integridade referencial.
+No relatório deve descrever sucintamente, de forma ordenada e em linguagem natural, os 3 gatilhos implementados.
+Os nomes dos ficheiros devem corresponder à ordenação das interrogações mencionadas no relatório. Em cada um dos ficheiros, deve ser ativada a verificação de integridade referencial.
