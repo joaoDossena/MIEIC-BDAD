@@ -60,15 +60,17 @@ Os nomes dos ficheiros devem corresponder à ordenação das interrogações men
 ### H. Adição de gatilhos à base de dados:
 Por fim, devem ser definidos 3 gatilhos que sejam úteis para a monitorização e manutenção da base de dados. Pelo menos um dos gatilhos deve implementar uma restrição. Para cada gatilho devem ser criados 3 ficheiros: gatilhoN_adiciona.sql,gatilhoN_remove.sqle gatilhoN_verifica.sql, com N = 1, 2 ou 3.
 
-Em gatilhoN_adiciona.sql, deve ser incluídaa instrução SQL que permitecriar o gatilho. Caso a restrição para a qualse está a criar o gatilho possa ser violada por mais do que um tipo de modificação à base de dados, pode ser necessáriocriar mais do que um gatilho para garantir a restrição. Se o gatilho descobrir que uma restrição está a ser violada, pode modificar a base de dados de forma a garantir que a violação é anuladaou pode desencadear um erro. Um gatilho SQLite pode desencadear um erro através de:
+Em gatilhoN_adiciona.sql, deve ser incluída a instrução SQL que permite criar o gatilho. Caso a restrição para a qual se está a criar o gatilho possa ser violada por mais do que um tipo de modificação à base de dados, pode ser necessário criar mais do que um gatilho para garantir a restrição. Se o gatilho descobrir que uma restrição está a ser violada, pode modificar a base de dados de forma a garantir que a violação é anulada ou pode desencadear um erro. Um gatilho SQLite pode desencadear um erro através de:
   SELECT raise(rollback, ‘<mensagem de erro>’);
 
 Quando esta instrução é executada, a ação que desencadeou o gatilho é desfeita e é apresentada a mensagem de erro pretendida.
 
-No ficheiro gatilhoN_remove.sql deve ser incluída a instrução que elimina o gatilho da base de dados. No ficheiro gatilhoN_verifica.sql devem ser incluídas as instruções SQL que permitem confirmar que o gatilho está bem implementado. Por exemplo, se o gatilho inserir um tuplo na relação R2 sempre que seja inserido um tuplo na relação R1, este ficheiro deverá ter instruções semelhantes a:
+No ficheiro gatilhoN_remove.sql deve ser incluída a instrução que elimina o gatilho da base de dados. 
+
+No ficheiro gatilhoN_verifica.sql devem ser incluídas as instruções SQL que permitem confirmar que o gatilho está bem implementado. Por exemplo, se o gatilho inserir um tuplo na relação R2 sempre que seja inserido um tuplo na relação R1, este ficheiro deverá ter instruções semelhantes a:
   SELECT * FROM TABLER2;
   INSERT INTO R1VALUES(valor1, valor2, ...);
   SELECT * FROM TABLE R2;
 
-No relatório deve descrever sucintamente,de forma ordenada e em linguagem natural,os 3 gatilhos implementados.
-Os nomes dos ficheiros devem corresponderà ordenação das interrogações mencionadas no relatório. Em cada um dos ficheiros, deve ser ativada a verificação de integridade referencial.
+No relatório deve descrever sucintamente, de forma ordenada e em linguagem natural, os 3 gatilhos implementados.
+Os nomes dos ficheiros devem corresponder à ordenação das interrogações mencionadas no relatório. Em cada um dos ficheiros, deve ser ativada a verificação de integridade referencial.
