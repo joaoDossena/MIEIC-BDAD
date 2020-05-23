@@ -6,5 +6,6 @@
 SELECT horaInicio, horaFim, idTurmaPratica
 FROM TurmaPratica
 WHERE idTurmaPratica LIKE 'MIEIC-%01' 
-GROUP BY (horaFim - horaInicio)
+ORDER BY (horaFim - horaInicio)
+ASC
 ;
