@@ -298,39 +298,39 @@ INSERT INTO OcorrenciaCadeiraEpoca (idOcorrenciaCadeira, idEpoca) VALUES ('emqpj
 
 --TurmaPratica info insertion
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-BDAD01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
+	('MIEIC-BDAD01', 30, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-BDAD02', 1, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
+	('MIEIC-BDAD02', 26, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-BDAD03', 1, 'Sexta-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
+	('MIEIC-BDAD03', 27, 'Sexta-Feira', '10:00:00', '12:00:00', 'MIEIC-BDAD');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-CAL01', 1, 'Quarta-Feira', '08:00:00', '10:00:00', 'MIEIC-CAL');
+	('MIEIC-CAL01', 26, 'Quarta-Feira', '08:00:00', '10:00:00', 'MIEIC-CAL');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-SOPE01', 1, 'Quinta-Feira', '08:00:00', '12:00:00', 'MIEIC-SOPE');
+	('MIEIC-SOPE01', 24, 'Quinta-Feira', '08:00:00', '12:00:00', 'MIEIC-SOPE');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-LPOO01', 1, 'Sexta-Feira', '15:00:00', '18:00:00', 'MIEIC-LPOO');
+	('MIEIC-LPOO01', 22, 'Sexta-Feira', '15:00:00', '18:00:00', 'MIEIC-LPOO');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-CGRA01', 1, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEIC-CGRA');
+	('MIEIC-CGRA01', 15, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEIC-CGRA');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-PF01', 1, 'Segunda-Feira', '15:00:00', '16:00:00', 'MIEIC-PF');
+	('MIEIC-PF01', 17, 'Segunda-Feira', '15:00:00', '16:00:00', 'MIEIC-PF');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-AMAT01', 1, 'Segunda-Feira', '14:00:00', '15:00:00', 'MIEIC-AMAT');
+	('MIEIC-AMAT01', 20, 'Segunda-Feira', '14:00:00', '15:00:00', 'MIEIC-AMAT');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEEC-AMAT01', 1, 'Quinta-Feira', '10:00:00', '13:00:00', 'MIEEC-AMAT');
+	('MIEEC-AMAT01', 24, 'Quinta-Feira', '10:00:00', '13:00:00', 'MIEEC-AMAT');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEQ-AMAT01', 1, 'Quarta-Feira', '10:00:00', '12:00:00', 'MIEQ-AMAT');
+	('MIEQ-AMAT01', 28, 'Quarta-Feira', '10:00:00', '12:00:00', 'MIEQ-AMAT');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEC-AMAT01', 1, 'Sexta-Feira', '10:00:00', '12:00:00', 'MIEC-AMAT');
+	('MIEC-AMAT01', 30, 'Sexta-Feira', '10:00:00', '12:00:00', 'MIEC-AMAT');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEGI-AMAT01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEGI-AMAT');
+	('MIEGI-AMAT01', 32, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEGI-AMAT');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEA-AMAT01', 1, 'Quarta-Feira', '10:00:00', '12:00:00', 'MIEA-AMAT');
+	('MIEA-AMAT01', 22, 'Quarta-Feira', '10:00:00', '12:00:00', 'MIEA-AMAT');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEM-AMAT01', 1, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEM-AMAT');
+	('MIEM-AMAT01', 23, 'Terça-Feira', '10:00:00', '12:00:00', 'MIEM-AMAT');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-PROG01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-PROG');
+	('MIEIC-PROG01', 23, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-PROG');
 INSERT INTO TurmaPratica (idTurmaPratica, numEstudantes, diaSemana, horaInicio, horaFim, idCadeira) VALUES
-	('MIEIC-FPRO01', 1, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-FPRO');
+	('MIEIC-FPRO01', 28, 'Segunda-Feira', '10:00:00', '12:00:00', 'MIEIC-FPRO');
 
 --DocenteTurmaPratica info insertion
 INSERT INTO DocenteTurmaPratica (id, idTurmaPratica) VALUES ('UP19990001', 'MIEIC-BDAD01');
