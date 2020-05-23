@@ -1,4 +1,4 @@
---
+--Lista quantos Docentes com categoria de Professor Auxiliar existem por departamento
 .mode columns
 .headers on
 .nullvalue NULL
