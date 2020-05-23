@@ -7,13 +7,13 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
       - [x] Int1 - Lista os nomes dos Estudantes da FEUP por ordem alfabética, como numa lista de chamada
       - [x] Int2 - Lista os tuplos nota, idCadeira, tal que a nota seja menor que 10
       - [x] Int3 - Conta quantos Docentes têm um id de antes do ano 2000
-      - [ ] Int4
-      - [ ] Int5
-      - [ ] Int6
-      - [ ] Int7
-      - [ ] Int8
-      - [ ] Int9
-      - [ ] Int10
+      - [x] Int4 - Lista os horários de início e fim das turmas práticas 01 do curso MIEIC, ordenados por duração da aula
+      - [ ] Int5 -
+      - [ ] Int6 -
+      - [ ] Int7 - 
+      - [ ] Int8 - 
+      - [ ] Int9 - 
+      - [ ] Int10 - 
       - [ ] Adicionar as interrogações ao relatório
     - [ ] H - Adição de gatilhos à base de dados
       - [ ] gatilho1_adiciona.sql
