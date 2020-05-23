@@ -3,19 +3,19 @@ PRAGMA foreign_keys = on;
 
 --Curso info insertion
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEIC', 'Mestrado Integrado em Engenharia Informática e Computação', 'Mestre', 5, 16.5, '2006-01-01 10:00:00');
+	('MIEIC', 'Mestrado Integrado em Engenharia Informática e Computação', 'Mestre', 5, 16.8, '2006-01-01 10:00:00');
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEEC', 'Mestrado Integrado em Engenharia Eletrotécnica e Computadores', 'Mestre', 5, 15, '1990-01-01 10:00:00');
+	('MIEEC', 'Mestrado Integrado em Engenharia Eletrotécnica e Computadores', 'Mestre', 5, 16.5, '1990-01-01 10:00:00');
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEC', 'Mestrado Integrado em Engenharia Civil', 'Mestre', 5, 15, '1980-01-01 10:00:00');
+	('MIEC', 'Mestrado Integrado em Engenharia Civil', 'Mestre', 5, 15.8, '1980-01-01 10:00:00');
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEQ', 'Mestrado Integrado em Engenharia Química', 'Mestre', 5, 15, '1990-01-01 10:00:00');
+	('MIEQ', 'Mestrado Integrado em Engenharia Química', 'Mestre', 5, 16.3, '1990-01-01 10:00:00');
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEA', 'Mestrado Integrado em Engenharia do Ambiente', 'Mestre', 5, 15, '1995-01-01 10:00:00');
+	('MIEA', 'Mestrado Integrado em Engenharia do Ambiente', 'Mestre', 5, 14.5, '1995-01-01 10:00:00');
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEGI', 'Mestrado Integrado em Engenharia de Gestão Industrial', 'Mestre', 5, 15, '1995-01-01 10:00:00');
+	('MIEGI', 'Mestrado Integrado em Engenharia de Gestão Industrial', 'Mestre', 5, 17.5, '1995-01-01 10:00:00');
 INSERT INTO Curso (idCurso, nome, grauAcademico, duracao, mediaEntrada, dataInicio) VALUES
-	('MIEM', 'Mestrado Integrado em Engenharia Mecânica', 'Mestre', 5, 15, '1995-01-01 10:00:00');
+	('MIEM', 'Mestrado Integrado em Engenharia Mecânica', 'Mestre', 5, 16.1, '1995-01-01 10:00:00');
 	
 
 --PessoaFEUP info insertion
