@@ -11,7 +11,7 @@ Activities done for the subject of Databases @FEUP 2019/2020 (2020/1)
       - [x] Int5 - Lista id, nome e número de cadeiras em que os Docentes lecionam
       - [x] Int6 - Mostra a média de número de estudantes nas Turmas Práticas com aula na Terça-Feira
       - [x] Int7 - Mostra os Cursos com, respectivamente, maior e menor médias de entrada
-      - [ ] Int8 - 
+      - [x] Int8 - Mostra os Estudantes e a soma do número de créditos das Cadeiras em que estão inscritos
       - [ ] Int9 - 
       - [ ] Int10 - 
       - [ ] Adicionar as interrogações ao relatório
