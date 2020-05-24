@@ -1,4 +1,4 @@
---Quando um docente é removido da turma pratica, e se nao houver mais nenhum docente entao é adicionado um docente qualquer
+--Quando um Estudante é adicionado na classe EstudanteTurmaPratica, o atributo numEstudantes é incrementado por 1. 
 PRAGMA foreign_keys = ON;
 
 DROP TRIGGER IF EXISTS AtualizarNumEstudantes;
